@@ -21,7 +21,6 @@ class FreeProxyListScraper():
     def get_all_table_rows(self):
         # all table rows
         tables = self.page_bf.find('table', id='proxylisttable')
-        print(tables)
         rows = tables.findChildren('tr')
         return rows
 
