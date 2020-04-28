@@ -11,4 +11,4 @@ install:
 - poetry install
 script:
 - poetry run flake8 app
-- python .\\app\\FreeProxyListScraper.py
+- python ./app/FreeProxyListScraper.py
