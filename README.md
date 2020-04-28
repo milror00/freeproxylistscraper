@@ -14,7 +14,7 @@ Requirements to run :
 Steps for installation:
 
 1. git clone repo
-1. pip install -r requirements.txt or poetry install
+1. pip install -r requirements.txt or 1. pip install poetry 2. poetry install (poetry is a lib dependency manager )
 1. run the yahoo_currencies_scraper.py
 
 Results :
